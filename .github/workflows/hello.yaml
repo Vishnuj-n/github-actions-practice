@@ -1,5 +1,8 @@
 name: "hello world"
-on: push
+on:
+  push:
+    tags:
+      - 'v*.*.*'
 
 jobs:
   hello-job:
