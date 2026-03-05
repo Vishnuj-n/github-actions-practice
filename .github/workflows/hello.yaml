@@ -3,7 +3,9 @@ on: push
 
 jobs:
   hello-job:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
-       - name: Print message
-         run: echo "hello world"
+      - name: Print message
+        run: echo "hello world"
+      - name: Print second
+        run: echo "message two"
