@@ -9,3 +9,8 @@ jobs:
         run: echo "hello world"
       - name: Print second
         run: echo "message two"
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo message
+        run: echo "job 2"
