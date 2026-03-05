@@ -1,6 +1,6 @@
 name: Multi-step workflow
 
-on: Push
+on: push
 jobs:
   job1:
     runs-on: ubuntu-latest
